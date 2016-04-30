@@ -5,7 +5,7 @@ require 'state_machines/integrations/active_record/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'state_machines-activerecord'
-  spec.version       = StateMachines::Integrations::ActiveRecord::VERSION
+  spec.version       = '0.4.1'#StateMachines::Integrations::ActiveRecord::VERSION
   spec.authors       = ['Abdelkader Boudih', 'Aaron Pfeifer']
   spec.email         = %w(terminale@gmail.com aaron@pluginaweek.org)
   spec.summary       = %q(State machines Active Record Integration)
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'state_machines-activemodel', '>= 0.3.0'
-  spec.add_dependency 'activerecord' , '>=4.1'
+  spec.add_dependency 'activerecord'
   spec.add_development_dependency 'rake', '~> 10.3'
   spec.add_development_dependency 'sqlite3', '~> 1.3'
   spec.add_development_dependency 'appraisal', '>= 1'
